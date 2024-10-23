@@ -1,0 +1,24 @@
+Problematica
+
+    Una empresa de muebles tiene problemas de ajuste en la fabricacion de sus muebles, 
+    ya que hay diferencias en la convercion de medidas. Algunas estan en cm y otras en pulgadas.
+
+---------------------------
+Algoritmo
+
+1. Solicitar al usuario las medidas en cm
+2. Convertir las medidas solicitadas en pulgadas
+3. Mostrar las medidas en pulgadas
+
+---------------------------
+Pseudocodigo
+ 
+Inicio  
+    1. Solicitar al usuario las medidas en cm
+    Mostrar mensaje "Por favos, ingresar las medidas deseadas en cm: "
+
+    2. Convertir las medidas solicitadas en pulgadas
+    convertir medidas = medidas_en_centimetros / 2.54
+
+    3. Mostrar las medidas en pulgadas
+    Mostrar mensaje: "Las medidas en pulgadas son: ", medidas
